@@ -4,25 +4,21 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  meta,
   umn,
-  tesla,
-  shopify,
+  utf,
   carrent,
   jobit,
   tripguide,
   threejs,
+  laravel,
+  mysql
 } from "../assets";
 
 export const navLinks = [
@@ -52,11 +48,7 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  }
 ];
 
 const technologies = [
@@ -73,16 +65,12 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Laravel",
+    icon: laravel,
   },
   {
     name: "Tailwind CSS",
@@ -91,10 +79,6 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -109,8 +93,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "MySQL",
+    icon: mysql,
   },
 ];
 
@@ -120,52 +104,52 @@ const experiences = [
     company_name: "Multimedia Nusantara University X LPDP",
     icon: umn,
     iconBg: "#E6DEDD",
-    date: "19 February 2024 - 15 Maret 2024",
+    date: "19 February 2024 - 15 March 2024",
     points: [
-      "Provide direction to LPDP participants on the material regarding Website Developer. ",
-      "Create learning modules for LPDP participants to use in learning to create websites using HTML, CSS, JS and PHP. ",
-      "Assist LPDP participants in overcoming errors in the process of creating a website. ",
+      "Guided LPDP participants through comprehensive web development material.",
+      "Crafted detailed learning modules for participants to master HTML, CSS, JS, and PHP.",
+      "Assisted participants in troubleshooting and resolving website development issues.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Front End Developer",
+    company_name: "Umn Tech Festival",
+    icon: utf,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed the UTF Front End Website using Laravel, Inertia.js, and React.",
+      "Created custom displays based on Figma UI designs using Tailwind CSS.",
+      "Ensured responsive website design across various devices.",
+      "Engaged in team bonding activities to enhance project collaboration with senior developers.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Built and maintained web applications using React.js and related technologies.",
+  //     "Collaborated with designers, product managers, and developers to deliver high-quality products.",
+  //     "Implemented responsive designs and ensured compatibility across different browsers.",
+  //     "Conducted code reviews and provided constructive feedback to peers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full Stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developed and maintained full-stack web applications using React.js and other technologies.",
+  //     "Worked closely with cross-functional teams to create top-notch products.",
+  //     "Ensured responsive design and cross-browser compatibility.",
+  //     "Participated in code reviews, offering valuable feedback to fellow developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [

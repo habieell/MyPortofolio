@@ -20,11 +20,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import laravel from "./tech/laravel.svg";
+import mysql from "./tech/mysql.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import umn from "./company/umn.png";
 import tesla from "./company/tesla.png";
+import utf from "./company/utf.webp";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,7 +59,10 @@ export {
   shopify,
   umn,
   tesla,
+  utf,
   carrent,
   jobit,
   tripguide,
+  laravel,
+  mysql
 };
