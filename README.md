@@ -2,6 +2,9 @@ INFORMASI KELOMPOK:
 Habil Putra Wardana (00000073909) (habil.putra@student.umn.ac.id, Informatika)
 Rifqi Arief Wicaksana (00000073943) (rifqi.arief1@student.umn.ac.id, Informatika)
 
+GitHub Link:
+https://github.com/N4AD/Kelompok3-FL.git
+
 Gameplay Note:
 - Seperti game idle clicker yang ada, di klik icon yang ada di dalam game (Mobil Tahu Bulat)
 - Skor merupakan Money yang kita hasilkan
@@ -22,4 +25,3 @@ Upgrade Sotong		: Harga awal tahu bulat akan menaik sebesar x1.5.
 Upgrade Babi		: Harga awal tahu bulat akan menaik sebesar  x1.75.
 Upgrade Auto Clicker	: Auto Clicker akan bertambah 1.
 dan Upgrade Cabang	: Harga awal tahu bulat akan menambah sebesar 2.
-
