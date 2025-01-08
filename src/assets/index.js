@@ -32,6 +32,12 @@ import utf from "./company/utf.webp";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import mamappang from "./mamappang.png";
+import umntech from "./utf.png";
+import thriftrove from "./thriftrove.png";
+import tahubulat from "./tahubulat.png";
+import foodhub from "./foodhub.png";  
+import sofeng from "./sofeng.png";  
 
 export {
   logo,
@@ -64,5 +70,11 @@ export {
   jobit,
   tripguide,
   laravel,
-  mysql
+  mysql,
+  mamappang,
+  umntech,
+  thriftrove,
+  tahubulat,
+  foodhub,
+  sofeng
 };

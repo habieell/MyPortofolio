@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   html,
@@ -13,12 +12,15 @@ import {
   figma,
   umn,
   utf,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   laravel,
-  mysql
+  mysql,
+  umntech,
+  thriftrove,
+  mamappang,
+  tahubulat,
+  foodhub,
+  sofeng
 } from "../assets";
 
 export const navLinks = [
@@ -48,7 +50,7 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  }
+  },
 ];
 
 const technologies = [
@@ -181,67 +183,130 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "MAMAPPANG",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Mamappang is a Web Programming final semester exam project group aimed at franchising. This website is a platform for selling and buying food and beverages.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Laravel",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: mamappang,
+    source_code_link: "https://github.com/pemujakentang/mamappang-website",
   },
   {
-    name: "Job IT",
+    name: "Thriftrove",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Thriftrove is a project group for final semester exams based on E-commerce. This website uses axios api which is a dummy. Like e-commerce, it can do various features.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Axios",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "Javascript",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: thriftrove,
+    source_code_link: "https://github.com/habieell/TT",
   },
   {
-    name: "Trip Guide",
+    name: "UMN Tech Festival",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "UTF is an event to showcase the latest technological innovations created by students of the Faculty of Engineering & Informatics and learn from fellow students.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "Laravel",
+        color: "orange-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Inertia JS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "MySQL",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: umntech,
+    source_code_link: "https://github.com/atras30/Umn-Tech-Festival",
+  },
+  {
+    name: "Tahu Bulat Games",
+    description:
+      "Tahu Bulat Games is a game that is inspired by the game Tahu Bulat. This game is a final exam group project for the Intro to Internet Technology course which emphasizes the auto clicker feature. This game is made using HTML, CSS, and Javascript.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: tahubulat,
+    source_code_link: "https://github.com/habieell/TahuBulat",
+  },
+  {
+    name: "FoodHub",
+    description:
+      "FoodHub is a website for exploring food recommendations and viewing menus from various restaurants. Users can browse blog content for culinary inspiration and discover suggested eateries without direct ordering features.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+    ],
+    image: foodhub,
+    source_code_link: "https://github.com/habieell/FoodHub.git",
+  },
+  {
+    name: "DJP Re-Design",
+    description:
+      "Re-Designing the UI/UX of the Directorate General of Tax application, this project is intended for the final semester exam for the Software Engineering course. Revising several icons that are less functional using Figma.",
+    tags: [
+      {
+        name: "Figma",
+        color: "green-text-gradient",
+      },
+    ],
+    image: sofeng,
+    source_code_link: "https://www.figma.com/design/Lo4wrEDLBWSJ8o2vvMELeV/UAS-sofeng?node-id=17-2897&t=cR9DmnCCn4NCKmZg-1",
   },
 ];
 
