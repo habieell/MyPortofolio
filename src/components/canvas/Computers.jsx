@@ -14,7 +14,15 @@ const Computers = ({ isMobile }) => {
         position={[0, 0, -50]}
         angle={0.12}
         penumbra={1}
-        intensity={4}
+        intensity={0.8}
+        castShadow
+        shadow-mapSize={1024}
+      />
+      <spotLight
+        position={[-50, 0, 0]}
+        angle={0.12}
+        penumbra={1}
+        intensity={0.8}
         castShadow
         shadow-mapSize={1024}
       />
@@ -23,7 +31,7 @@ const Computers = ({ isMobile }) => {
         object={computer.scene}
         scale={isMobile ? 1 : 1.75}
         position={isMobile ? [0, -4.5, 0] : [0, -7.5, 0]}
-        rotation={[0.09, 0, 0]}
+        rotation={[0.325, 1.3, -0.31]}
       />
     </mesh>
   );
